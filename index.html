@@ -3,21 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My portofolio Dhafin Haron</title>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
-
-
-    <!-- My css -->
+    <!-- css -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-  
-   
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #b6895b">
       <div class="container">
-        <a class="navbar-brand" href="#">Dhafin Haron</a>
+        <a class="navbar-brand" href="#">Dimas Raditya</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,7 +26,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -39,56 +35,62 @@
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
+    <!-- Navbar end -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/Dhafin.jpg" alt="Dhafin Haron" width="200" class="rounded-circle" img-thumbnail />
-      <h1 class="display-4">Dhafin Haron</h1>
-      <p class="lead">Student | Learn Programmer</p>
+    <!-- Jumbotron start -->
+    <section class="jumbotron text-center" id="home">
+      <img src="/img/dimsum.jpg" alt="dimsum" width="200" class="img-thumbnail rounded-circle" />
+      <h1 class="display-4">Dimdam sum</h1>
+      <p class="lead">Marbot | Imam qatar</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#ffffff"
+          fill="#fff"
           fill-opacity="1"
-          d="M0,224L30,213.3C60,203,120,181,180,197.3C240,213,300,267,360,250.7C420,235,480,149,540,122.7C600,96,660,128,720,138.7C780,149,840,139,900,122.7C960,107,1020,85,1080,90.7C1140,96,1200,128,1260,138.7C1320,149,1380,139,1410,133.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          d="M0,32L48,53.3C96,75,192,117,288,122.7C384,128,480,96,576,74.7C672,53,768,43,864,74.7C960,107,1056,181,1152,197.3C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
-    <!-- Akhir Jumbotron -->
+    <!-- Jumbotron end -->
 
-    <!-- About -->
+    <!-- about start -->
     <section id="about">
-      <div class="container">
-        <div class="row text-center">
-        <div class="col">
-          <h2>About Me</h2>
-        </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center mb-3">
-          <div class="col-4">
-            <p>Perkenalkan nama Saya Muhammad Dhafin Haron saya tingal di jakarta timur saya memiliki 1 abang saja dan saya tinggal gabung bersama sodara saya, saya kalo makan biasanya 3 hari sekali  </p>
-          </div>
-          <div class="col-4">
-            <p>kesukaan saya biasanya klo di rmh dengerin musik dan main basket di sore hari bersama teman" bapak saya tinggal di singapura jd cukup jauh jg dan saya biasanya dirmh terus klo gk ada yg mau ngajakin main. </p>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <h2>About Me</h2>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7ea0d6" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,160C384,149,480,107,576,101.3C672,96,768,128,864,154.7C960,181,1056,203,1152,202.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptate repellendus quisquam ratione quibusdam incidunt nostrum sapiente magni eligendi quas!</p>
+        </div>
+        <div class="col-md-4">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, fuga in adipisci iure voluptatibus rerum corporis commodi minus eius accusamus voluptates iusto et voluptatum incidunt?</p>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e4d8cb"
+          fill-opacity="1"
+          d="M0,192L48,165.3C96,139,192,85,288,96C384,107,480,181,576,197.3C672,213,768,171,864,154.7C960,139,1056,149,1152,154.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
-    <!-- Akhir About -->
+    <!-- about end -->
 
-    <!-- Projects -->
-    <section id="project">
+    <!-- Projects start -->
+    <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>My Projects</h2>
           </div>
         </div>
-        <div class="row justify-content-evenly">
+        <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/1.jpg" class="card-img-top" alt="Project 1" />
+              <img src="img/Projects/cigar (1).jpg"" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -96,7 +98,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/2.jpg" class="card-img-top" alt="Project 2" />
+              <img src="img/Projects/cigar (2).jpg"" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -104,7 +106,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/3.jpg" class="card-img-top" alt="Project 3" />
+              <img src="img/Projects/cigar (3).jpg"" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -112,7 +114,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/4.jpg" class="card-img-top" alt="Project 3" />
+              <img src="img/Projects/cigar (4).jpg"" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -120,7 +122,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/5.jpg" class="card-img-top" alt="Project 3" />
+              <img src="img/Projects/cigar (5).jpg"" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -129,52 +131,59 @@
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#7ea0d6"
-         fill-opacity="1"d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,133.3C672,85,768,43,864,53.3C960,64,1056,128,1152,128C1248,128,1344,64,1392,32L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
       </svg>
     </section>
-    <!-- Akhir Projects -->
+    <!-- Projects end -->
 
-    <!-- Contact -->
+    <!-- Contact start -->
     <section id="contact">
-      <div class="container"> 
+      <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-6">
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name">
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
-                <div class="mb-3">
-                  <label for="pesan" class="form-label">Pesan</label>
-                  <textarea class="form-control" id="pesan" row="3"></textarea>
-                </div>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
               <button type="submit" class="btn btn-primary">Kirim</button>
             </form>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7ea0d6" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,218.7C384,213,480,235,576,229.3C672,224,768,192,864,160C960,128,1056,96,1152,96C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e4d8cb"
+          fill-opacity="1"
+          d="M0,224L48,229.3C96,235,192,245,288,218.7C384,192,480,128,576,122.7C672,117,768,171,864,176C960,181,1056,139,1152,122.7C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
+    <!-- Contact end -->
 
-    <!-- Akhir Contact -->
-
-    <!-- Footer -->
-    <footer class="text-black text-center pb-5">
-      <p>Created with love by <a href="https://www.instagram.com/dhafinharon/?hl=en" class="text-black fw-bold">Dhafin Haron</a></p>
+    <!-- footer start -->
+    <footer class="justify-content-center text-black text-center pb-5">
+      <p>Created with love by <a href="https://www.instagram.com/dhafinharon/?hl=id" class="text-black">Dhafin Haron</a></p>
     </footer>
-    <!-- Akhir Footer -->
-  </div>
+    <!-- Akhir footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
